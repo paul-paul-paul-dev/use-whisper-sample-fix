@@ -181,6 +181,7 @@ export const useWhisper: UseWhisperHook = (config) => {
             bufferSize: 16384,
             timeSlice: streaming ? timeSlice : undefined,
             type: 'audio',
+            disableLogs: true,
             ondataavailable:
               autoTranscribe && streaming ? onDataAvailable : undefined,
           }
