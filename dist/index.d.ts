@@ -1,6 +1,6 @@
-import { useWhisper } from './useWhisper.js';
-import './types.js';
+import { useWhisper } from './useWhisper.js'
+import './types.js'
 
 
 
-export { useWhisper as default, useWhisper };
+export { useWhisper as default, useWhisper }
